@@ -1,0 +1,26 @@
+
+.main{
+    width: 80%;
+    margin: auto;
+
+    height: 600px;
+}
+.image-preview{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-print{
+    width: 60%;
+    margin: auto;
+}
