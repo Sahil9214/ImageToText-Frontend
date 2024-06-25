@@ -16,9 +16,10 @@ import {
   Stack,
   useColorMode,
   Center,
+  Image,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-
+import logo from "./Images/UFO.svg";
 const NavLink = (props) => {
   const { children } = props;
 
@@ -46,7 +47,9 @@ export default function Navbar() {
     <>
       <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-          <Box>Logo</Box>
+          <Box>
+            <Image src={logo} />
+          </Box>
 
           <Flex alignItems={"center"}>
             <Stack direction={"row"} spacing={7}>

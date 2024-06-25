@@ -90,7 +90,7 @@ function App() {
         </div>
       </div>
       <div className="data-print">
-        {data && <p>{data[data.length - 1].content}</p>}
+        {data.length > 0 && <p>{data[data.length - 1].content}</p>}
       </div>
     </div>
   );
